@@ -1,7 +1,3 @@
-# lola-vscode
+# lux-vscode
 
-[LoLa](https://github.com/MasterQ32/LoLa-native) support for Visual Studio Code.
-
-## Features
-
- - syntax highlighting
+[Lux](https://github.com/thomas992/Lux) syntax highlighting for Visual Studio Code.
