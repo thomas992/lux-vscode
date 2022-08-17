@@ -1,15 +1,15 @@
 {
-    "name": "lola",
-    "displayName": "LoLa",
-    "description": "Language support for LoLa",
+    "name": "lux",
+    "displayName": "Lux",
+    "description": "Language support for Lux",
     "version": "0.1.0",
     "publisher": "xq",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Vexu/lola-vscode"
+        "url": "https://github.com/thomas992/lux-vscode"
     },
     "bugs": {
-        "url": "https://github.com/Vexu/lola-vscode/issues"
+        "url": "https://github.com/thomas992/lux-vscode/issues"
     },
     "engines": {
         "vscode": "^1.22.0"
@@ -20,18 +20,18 @@
     "contributes": {
         "languages": [
             {
-                "id": "lola",
+                "id": "lux",
                 "extensions": [
-                    ".lola"
+                    ".lux"
                 ],
                 "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "lola",
-                "scopeName": "source.lola",
-                "path": "./syntaxes/lola.tmLanguage.json"
+                "language": "lux",
+                "scopeName": "source.lux",
+                "path": "./syntaxes/lux.tmLanguage.json"
             }
         ]
     }
